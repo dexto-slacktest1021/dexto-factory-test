@@ -10,3 +10,11 @@ This repository is documentation only. There is no package to install and no pro
 git clone https://github.com/dexto-slacktest1021/dexto-factory-test.git
 cd dexto-factory-test
 ```
+
+## Dogfood
+
+`dogfood/slugify.py` provides `slugify(text)`. It lowercases the text, keeps only ASCII letters and digits, and joins the words with hyphens.
+
+```bash
+python -m pytest dogfood/test_slugify.py
+```
