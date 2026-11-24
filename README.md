@@ -10,3 +10,13 @@ This repository is documentation only. There is no package to install and no pro
 git clone https://github.com/dexto-slacktest1021/dexto-factory-test.git
 cd dexto-factory-test
 ```
+
+## titlecase
+
+`titlecase(text)` capitalises the first letter of each word and lowercases the rest. Leading, trailing, and repeated spaces are trimmed and collapsed.
+
+```js
+const { titlecase } = require("./src/titlecase");
+
+titlecase("  hELLo   wORLD  "); // "Hello World"
+```
